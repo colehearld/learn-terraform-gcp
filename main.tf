@@ -1,6 +1,6 @@
 # Sets up the Google Cloud provider with specific project ID, region, and path to the credentials file.
 provider "google" {
-  project     = "terraform-project-411316"  # GCP project ID
+  project     = "your-project-id"  # GCP project ID
   region      = "us-central1"               # Default region for resources
   credentials = file("Path/To/terraform-project-key.json") # Path to the JSON key file for authentication
 }
